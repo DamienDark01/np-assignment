@@ -4,7 +4,7 @@ This demonstrates a basic understanding of socket programming in C by implementi
 File name: ReadMe.txt </br>
 Author: Damith Induranga Bandara </br>
 Module: Network Programming
-
+</br>
 This file contains</br>
 - steps to compile and run the Server and Client programs.
 - inputs that can be given to the programs.
@@ -14,7 +14,7 @@ Server file name: srv7996.c</br>
 Client file name: cli2216.c
 
 
-
+</br>
 Steps to compile the programs</br>
 -  Navigate to the location where the program/s are saved.
 - Enter the given commands in to the terminal:
@@ -26,7 +26,7 @@ Steps to compile the programs</br>
 - Permissions required to execute the compiled files are given with the above commands.
 
 
-
+</br>
 Steps to run the programs</br>
 - Find the IPv4 address for both server and client/s by entering the given command in to the terminal:
         ip a | grep inet
@@ -40,13 +40,14 @@ Steps to run the programs</br>
 (svr/cli: complied file name & server-ipv4-address: IPv4 address of the server & client-ipv4-address: IPv4 address of the client)
 
 
-
+</br>
 Inputs for Server program</br>
 - The server program will indicate 
     - which clients are connected.
     - when a file is uploaded by the client.
     - where the uploaded file is saved.
 
+</br>
 Inputs for Client program</br>
 - The user can enter
     - whether to upload or download files.
@@ -58,14 +59,14 @@ Inputs for Client program</br>
     - download progress and where the file was saved to.
 
 
-
+</br>
 Note that all the files/folders will be created in the same directory as of the server/client programs.</br>
     - complied executable files
     - shared_files directory: holds the files that can be shared (upload/download)
     - log file in server
 
 
-
+</br>
 Limitations</br>
 - Only 16 clients can be handled simultaneously by the server.
 - To test file download resuming, very large files need to be used.
