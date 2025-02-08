@@ -1,21 +1,21 @@
 # np-assignment
 This demonstrates a basic understanding of socket programming in C by implementing a simplified version of a torrent file exchange scenario. The client and server programs will simulate the process of uploading and downloading files, mimicking the behavior of a torrent system.
 
-File name: ReadMe.txt /br
-Author: Damith Induranga Bandara
+File name: ReadMe.txt </br>
+Author: Damith Induranga Bandara </br>
 Module: Network Programming
 
-This file contains
+This file contains</br>
 - steps to compile and run the Server and Client programs.
 - inputs that can be given to the programs.
 - limitations of the programs.
 
-Server file name: srv7996.c
+Server file name: srv7996.c</br>
 Client file name: cli2216.c
 
 
 
-Steps to compile the programs
+Steps to compile the programs</br>
 -  Navigate to the location where the program/s are saved.
 - Enter the given commands in to the terminal:
     - Server program
@@ -27,27 +27,27 @@ Steps to compile the programs
 
 
 
-Steps to run the programs
+Steps to run the programs</br>
 - Find the IPv4 address for both server and client/s by entering the given command in to the terminal:
         ip a | grep inet
 - This is due to the automatic IP address assignment by DHCP.
 - Navigate to the location where the program/s are saved.
 - Enter the given commands to execute the programs
-    - Server program
+    - Server program</br>
         ./svr server-ipv4-address
-    - Client program
-        ./cli client-ipv4-address server-ipv4-address
+    - Client program</br>
+        ./cli client-ipv4-address server-ipv4-address</br>
 (svr/cli: complied file name & server-ipv4-address: IPv4 address of the server & client-ipv4-address: IPv4 address of the client)
 
 
 
-Inputs for Server program
+Inputs for Server program</br>
 - The server program will indicate 
     - which clients are connected.
     - when a file is uploaded by the client.
     - where the uploaded file is saved.
 
-Inputs for Client program
+Inputs for Client program</br>
 - The user can enter
     - whether to upload or download files.
     - which file to download from the available files.
@@ -59,14 +59,14 @@ Inputs for Client program
 
 
 
-Note that all the files/folders will be created in the same directory as of the server/client programs.
+Note that all the files/folders will be created in the same directory as of the server/client programs.</br>
     - complied executable files
     - shared_files directory: holds the files that can be shared (upload/download)
     - log file in server
 
 
 
-Limitations
+Limitations</br>
 - Only 16 clients can be handled simultaneously by the server.
 - To test file download resuming, very large files need to be used.
 - This is due to PCIe 4th generation SSDs that is being used in the test PC.
